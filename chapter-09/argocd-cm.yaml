@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/name: argocd-cm
     app.kubernetes.io/part-of: argocd
 data:
-  url: https://<minikube-host>:<minikube-port>
+  url: https://192.168.99.103:31886
 
   dex.config: |
     connectors:
